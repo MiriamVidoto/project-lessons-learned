@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+    font para texto corrido: 'Roboto', sans-serif;
+    font para titulos: 'Comfortaa', cursive;
+    font para lugares especificos  'Dancing Script', cursive;
+
+    cores
+    #253659 azul
+    #03A696 verde esc
+    #04BF9D verde cl
+    #F27457 laranja
+    #BF665E salmão
+
+*/
+
+*{
+    font-family:'Roboto', sans-serif;
+    margin: Opx;
+    padding: 0px;
+}    
+body{
+    background-color: rgb(253, 251, 251);
+}
+nav li{
+    display: inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: .6s;
+}
+nav a:hover{
+    background-color: #F27457;
+    color: antiquewhite;
+}
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#F27457, #BF665E );
+    text-align: center;
+    padding-top: 10x;
+}
+#titulo {
+    font: normal 700 2em 'Comfortaa', cursive;
+    color:aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.034);
+}
+main{
+    position: relative;
+    top: 160px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding:20px ;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;   
+}
+h2{
+    font: normal 600 1.3em 'Comfortaa', cursive;
+    color: #03A696;
+    text-indent: 8px;
+}
+main a{
+    display: block;
+    width: 70% ;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #253659;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.068);
+}
+main a:hover {
+    color: #F27457;
+    text-decoration: underline;
+}
+#minha_foto{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#licoes_aprendidas{
+    background-color: rgba(127, 255, 212, 0.199);
+    color: #253659;
+    line-height: 2em;
+    padding: 10px;
+    list-style-position: inside;
+}
+#licoes_a_aprender{
+    background-color: rgba(127, 255, 212, 0.199);
+    color: #253659;
+    line-height: 2em;
+    padding: 10px;
+    list-style-position: inside;
+}
+.lista{
+    display: inline-block;
+    width: 45%;
+    margin-right: 10px;
+    padding: 15px;
+}
+.lado-esquerdo{
+    display: inline-block;
+    margin: auto;
+    width: 56%;
+    padding: 20px;
+
+}
+article h2{
+    font-size: 2em;
+}
+article p{
+    width: 85%;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+article a{
+    display: inline;
+    color: black;
+    background-color: #04BF9D;
+    font-size: 1em;
+    padding: 2px 5px;
+}
+.lado-direito{
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    margin: 100px 8px 20px 14px;
+    padding: 10px 8px 8px 14px;
+    border: 2px dashed #BF665E;
+    border-radius: 15px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #253659 ;
+    margin: auto;
+}
+td{
+    border: 1px solid #253659 ;
+    padding: 40px 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+td.claro{
+    background-color: #04BF9D;
+}
+td.escuro{
+    background-color: #03A696;
+}
+#titulo-tabela{
+text-align: center;
+font-size: 1.7em;
+}
+#rodape {
+    position:fixed absolute;
+    bottom: 0px;
+    background-color:#BF665E;
+    height: 70px;
+    width: 100%;
+    text-align-last: center;
+}
+
